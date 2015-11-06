@@ -1,0 +1,74 @@
+@charset "utf-8";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  /*color: #fff;*/
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+footer{
+  .container{
+    p{
+      text-align: right;
+      padding: 0,0,0,0;
+      /*float: right;*/
+    }
+    /*background-color: #3c3f37;*/
+  }
+}
+
+.download-part{
+  background: url("../images/back.png");
+  padding-bottom: 10px;
+  .title{
+    @media (min-width: 978px)
+    {
+      margin-left: 110px;
+    }
+    color: #fff;
+  }
+  .desc{
+    @media (min-width: 978px)
+    {
+      margin-left: 110px;
+    }
+    color: #fff;
+  }
+  .download-link{
+    @media (min-width: 978px)
+    {
+      margin-left: 110px;
+    }
+    color: #fff;
+    font-size: 1.2em;
+  }
+}
+
+.function-part{
+  text-align: center;
+}
+.why-part{
+  text-align: center;
+  hr{
+    size: 10px;
+    color: #b9b9b9;
+  }
+  ul{
+    text-align: left;
+  }
+}
+/*.faq-header{*/
+  /*background: url("../images/back.png");*/
+/*}*/
+.faq-question .faq-answer{
+}
+.forbidden-title{
+  text-align: center;
+}
