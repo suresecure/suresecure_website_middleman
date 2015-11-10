@@ -13,6 +13,14 @@
   font-weight: bold;
 }
 
+/*body{*/
+  /*background-color: orange;*/
+/*}*/
+
+.navbar{
+  margin-bottom: 0px;
+}
+
 footer{
   .container{
     p{
@@ -64,11 +72,29 @@ footer{
     text-align: left;
   }
 }
-/*.faq-header{*/
-  /*background: url("../images/back.png");*/
-/*}*/
-.faq-question .faq-answer{
+
+.faq-header{
+  background: url("../images/back.png");
+  margin-top: 0;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 31px;
+  color: #fff;
 }
+.qaitem{
+  color: rgb(120,188,47);
+}
+.faq-question{
+  font-size: 18px;
+  font-family: Microsoft Yahei;
+  color: rgb(120,188,47);
+}
+.faq-answer{
+  font-size: 14px;
+  font-family: Microsoft Yahei;
+  color: rgb(141,141,141);
+}
+
 .forbidden-title{
   text-align: center;
 }
