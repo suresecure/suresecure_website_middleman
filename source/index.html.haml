@@ -2,7 +2,9 @@
 title: 山妖卫士
 ---
 
--#%p.test xxx
+= javascript_include_tag 'http://res.wx.qq.com/open/js/jweixin-1.0.0.js'
+:javascript
+  var $share_url = 'http://www.shanyaows.com'
 
 .container.download-part
   %h1.title 山妖卫士
@@ -26,7 +28,7 @@ title: 山妖卫士
 
 .container.why-part
   %hr
-  %h1 您知道吗？
+  -#%h1 您知道吗？
   .col-md-6
     %img{:src => "../images/why-01.png"}
     %h2 为什么要使用反黄软件？

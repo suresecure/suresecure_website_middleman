@@ -2,6 +2,28 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+//这四个使得导航栏在移动设备上不堆叠，仍然保持靠右
+.navbar-collapse.collapse {
+  display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right!important;
+}
+
+  /*@media (min-width: 978px)*/
+  /*{*/
+    /*float: left;*/
+    /*margin-right: 10px;*/
+  /*}*/
 .logo {
   float: left;
   margin-right: 10px;
@@ -11,6 +33,8 @@
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  img{
+  }
 }
 
 /*body{*/
@@ -93,8 +117,14 @@ footer{
   font-size: 14px;
   font-family: Microsoft Yahei;
   color: rgb(141,141,141);
+  ul{
+    padding-left: 2em;
+    /*li{*/
+      /*background-color: red;*/
+      /*padding-left: 0px;*/
+    /*}*/
+  }
 }
-
 .forbidden-title{
   text-align: center;
 }

@@ -1,7 +1,11 @@
 %footer
   .container
     %hr
-    %p.small trollwiz@qq.com
-    %p.small Copyright 2014-2015 MasaTek All Rights Reserved
+    -#%p.small
+      -#%img{:src => "../images/weixin-icon.png"}
+    %p.small
+      %img{:src => "../images/email-icon.png"}
+      =mail_to "support@shanyaows.com"
+    %p.small Copyright © 2014-2015 MasaTek All Rights Reserved
     %p.small 马沙科技版权所有
     %p.small 湘ICP备15013189号
